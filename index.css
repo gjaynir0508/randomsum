@@ -1,0 +1,110 @@
+body {
+    background: #262626;
+    color: #fff;
+    font-family: 'Montserrat';
+    margin: 0;
+}
+
+.row {
+    width: 100%;
+    margin-top: 50px;
+    background: #1A1A1A;
+    border-bottom: 3px solid #FF0057;
+    display: grid;
+    grid-template-columns: 35% auto 35%;
+    align-items: center;
+}
+
+.price-container {
+    margin-left: 20%;
+    background: #353535;
+    padding: 0 10px;
+    text-align: center;
+}
+
+.goal-container {
+    padding: 20px;
+}
+
+.subtext {
+    font-size: .8em;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+img {
+    width: 20px;
+}
+
+h1 {
+    margin: 0 0 10px 0;
+    letter-spacing: 3px;
+}
+
+button {
+    background: #FF0057;
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.bottom-btn {
+    margin-top: 30px;
+}
+
+
+
+
+
+
+.container {
+    padding: 7% 15%;
+}
+
+input,
+select {
+    display: block;
+    margin-bottom: 12px;
+    height: 30px;
+    width: 80%;
+}
+
+select {
+    margin-bottom: 50px;
+}
+
+.numbottom {
+    border-bottom: 1px solid;
+    padding-bottom: 4px;
+}
+
+
+
+.hidden-text {
+    visibility: hidden;
+}
+
+.answers {
+    border-bottom: 1px solid;
+    padding-bottom: 20px;
+}
+
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+.flex-item {
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    text-align: right;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}

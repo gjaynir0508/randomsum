@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <title>Random Sum Generator</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="logo.png">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Random Sum Generator</h1>
+      <p>Fill the details in the form below and click on <span>Generate</span> to create random problems.</p>
+      <div class="container">
+        <form action="">
+          <input type="number" name="startNum" id="firstNum" required autofocus placeholder="Least Number">
+          <input type="number" name="endNum" id="lastNum" required placeholder="Greatest Number">
+          <input type="number" name="numOf" id="count" required placeholder="Number of Sums">
+          <select name="operator" id="operator" required>
+            <option value="" selected disabled>Choose Operation</option>
+            <option value="add">Addition</option>
+            <option value="sub">Subtraction</option>
+            <option value="multiply">Multiplication</option>
+            <option value="divide">Division</option>
+          </select>
+
+          <button id="submit-button" type="submit">Generate</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="container sums">
+      <ul id="sumsList" class="flex-container"></ul>
+
+      <button class="bottom-btn hidden-text" id="answerToggle">Show / Hide Answers</button>
+    </div>
+
+
+
+
+
+
+
+
+    <script src="index.js"></script>
+  </body>
+</html>
